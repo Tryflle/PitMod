@@ -1,4 +1,4 @@
-package com.example
+package com.github.tryflle.pitmod
 
 import net.minecraft.client.Minecraft
 import net.minecraft.init.Blocks
@@ -6,7 +6,7 @@ import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.event.FMLInitializationEvent
 import net.minecraft.client.renderer.GlStateManager
 
-@Mod(modid = "examplemod", useMetadata = true)
+@Mod(modid = "pitmod", useMetadata = true)
 class ExampleMod {
     @Mod.EventHandler
     fun init(event: FMLInitializationEvent) {
